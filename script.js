@@ -1,2 +1,2 @@
-(()=>{"use strict";let e;console.log("Script started successfully"),e=WA.onEnterZone("popup",(()=>{WA.openPopup("popup_test","Hello world!",[{label:"Close",className:"primary",callback:e=>{e.close()}}])})),WA.onLeaveZone("popup",(()=>{e.close()}))})();
+(()=>{"use strict";let o;console.log("Script started successfully"),WA.onEnterZone("popup",(()=>{o=WA.openPopup("popup_test","Hello world!",[])})),WA.onLeaveZone("popup",(()=>{o.close()}))})();
 //# sourceMappingURL=script.js.map
