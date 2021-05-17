@@ -1,2 +1,2 @@
-(()=>{"use strict";console.log("Script started successfully"),WA.openCoWebSite("https://workadventu.re")})();
+(()=>{"use strict";let e;console.log("Script started successfully"),e=WA.onEnterZone("popup",(()=>{WA.openPopup("popUp","Hello world!",[{label:"Close",className:"primary",callback:e=>{e.close()}}])})),WA.onLeaveZone("popup",(()=>{e.close()}))})();
 //# sourceMappingURL=script.js.map
