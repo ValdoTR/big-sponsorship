@@ -1,2 +1,2 @@
-(()=>{"use strict";let o;console.log("Script started successfully"),WA.onEnterZone("popup",(()=>{o=WA.openPopup("popup_test","Hello world!",[])})),WA.onLeaveZone("popup",(()=>{o.close()}))})();
+(()=>{"use strict";let o;console.log("Script started successfully"),[{name:"popup",body:"Hello World",options:{lable:"Close",className:"primary",callback:o=>{o.close()}}},{name:"popup_test",body:"Hello World NUMERO 2",options:{}}].forEach((e=>{WA.onEnterZone(e.name,(()=>{o=WA.openPopup(e.name,e.body,[e.options])})),WA.onLeaveZone(e.name,(()=>{o.close()}))}))})();
 //# sourceMappingURL=script.js.map
